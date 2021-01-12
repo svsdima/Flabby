@@ -1,0 +1,73 @@
+button {
+    display: block;
+    width: 110px;
+    height: 55px;
+    // margin: 0 83px 82px 35px;
+    // padding: 21px 22px 22px 31px;
+    opacity: 0.8;
+    border-radius: 10px;
+    background-color: #479ee1;
+    font-family: Raleway;
+    font-size: 17px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.35;
+    letter-spacing: 1.7px;
+    text-align: center;
+    border: white;
+    color: #ffffff;
+    text-transform: uppercase;
+    &:hover {
+        background-color: #81c4f8;
+        cursor: pointer;
+    }
+}
+
+.up_more {
+    width: 240px;
+    height: 80px;
+}
+
+.features_information_btn {
+    margin-top: 52px;
+    border-radius: 25px;
+    box-shadow: 0px 10px 16px 0 rgba(102, 212, 244, 0.3);
+    background-color: #66d4f4;
+    width: 150px;
+    height: 50px;
+}
+
+.price_btn {
+    margin: 0 auto;
+    margin-top: 55px;
+    border-radius: 27.2px;
+    box-shadow: 0px 10px 16px 0 rgba(102, 212, 244, 0.3);
+    background-color: #66d4f4;
+    font-size: 16.5px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 1.65px;
+    text-align: center;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+.subscribe_btn {
+    margin-top: 26px;
+    margin-bottom: 110px;
+    width: 370px;
+    height: 75px;
+    border-radius: 37.5px;
+    box-shadow: 0px 10px 16px 0 rgba(102, 212, 244, 0.3);
+    background-color: #66d4f4;
+    font-size: 16.5px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 1.65px;
+    text-align: center;
+    color: #ffffff;
+}

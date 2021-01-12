@@ -1,0 +1,56 @@
+.basement {
+    &_wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 53px;
+        &_text {
+            font-size: 14px;
+            font-weight: 500;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 2;
+            letter-spacing: normal;
+            text-align: left;
+            color: #7c7c7c;  
+        }
+        &_social {
+            margin-top: 25px;
+            img {
+                width: 30px;
+                height: 30px;
+                margin-right: 20px;
+            }
+        }
+        &_list {
+            &_header {
+                font-size: 20px;
+                font-weight: bold;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: normal;
+                letter-spacing: normal;
+                text-align: left;
+                color: #494949;
+            }
+            &_link {
+                font-size: 14px;
+                font-weight: 500;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 2;
+                letter-spacing: normal;
+                text-align: left;
+                color: #7c7c7c;
+                list-style: none;
+                li:hover {
+                    text-decoration: underline;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+    &_hr {
+        margin-top: 75px;
+    }
+}

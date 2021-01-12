@@ -1,0 +1,88 @@
+@font-face {
+    font-family: 'Raleway';
+    src: local('../fonts/Raleway-Thin'),
+        url('../fonts/Raleway-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+	font-family: 'Raleway';
+	src: local('../fonts/Raleway-Light'),
+		url('../fonts/Raleway-Light.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Raleway';
+	src: local('../fonts/Raleway-Medium'),
+		url('../fonts/Raleway-Medium.ttf') format('truetype');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Raleway';
+	src: local('../fonts/Raleway-Bold'),
+		url('../fonts/Raleway-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Raleway';
+	src: local('../fonts/Raleway-Black'),
+		url('../fonts/Raleway-Black.ttf') format('truetype');
+	font-weight: 900;
+	font-style: normal;
+}
+
+
+
+@font-face {
+    font-family: 'MuseoSlab';
+    src: local('../fonts/MuseoSlab-300'),
+        url('../fonts/MuseoSlab-100.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+	font-family: 'MuseoSlab';
+	src: local('../fonts/MuseoSlab-300'),
+		url('../fonts/MuseoSlab-300.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'MuseoSlab';
+	src: local('../fonts/MuseoSlab-500'),
+		url('../fonts/MuseoSlab-500.ttf') format('truetype');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'MuseoSlab';
+	src: local('../fonts/MuseoSlab-700'),
+		url('../fonts/MuseoSlab-700.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'MuseoSlab';
+	src: local('../fonts/MuseoSlab-900'),
+		url('../fonts/MuseoSlab-900.ttf') format('truetype');
+	font-weight: 900;
+	font-style: normal;
+}
+
+
+@font-face {
+	font-family: 'RobotoSlab';
+	src: local('../fonts/RobotoSlab-Medium'),
+		url('../fonts/RobotoSlab-Medium.ttf') format('truetype');
+	font-weight: 500;
+	font-style: normal;
+}

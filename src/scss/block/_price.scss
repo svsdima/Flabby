@@ -1,0 +1,97 @@
+.price {
+    padding: 70px 0 120px 0;
+    background: url('../img/bg/bg_3.jpg') center (center / cover) no-repeat;
+    &_header {
+        font-size: 18px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.33;
+        letter-spacing: normal;
+        text-align: center;
+        color: #7c7c7c;
+    }
+    &_subheader {
+        margin-top: 20px;
+        font-size: 24px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: 2.4px;
+        text-align: center;
+        color: #494949;
+        text-transform: uppercase;
+    }
+    &_hr {
+        margin-top: 22px;
+        width: 30px;
+        height: 2px;
+        background-color: #2eb0ec;
+    }
+    &_list {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &_wrapper {
+        width: 307px;
+        background: url('../img/bg/bg_price_1.jpg') center (center / cover) no-repeat;
+        margin: 0 auto;
+        margin-top: 105px;
+        padding: 46px 0 50px 0;
+        &_icon {
+            img {
+                display: block;
+                margin: 0 auto;
+            }
+        }
+        &_header {
+            margin-top: 60px;
+            font-size: 16px;
+            font-weight: bold;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: normal;
+            letter-spacing: normal;
+            text-align: center;
+            color: #494949;
+        }
+        &_cost {
+            background-image: linear-gradient(to top, #2eb0ec, #6af4f9), linear-gradient(to bottom, #2eb0ec, #2eb0ec);
+            font-size: 72px;
+            font-weight: 800;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: normal;
+            letter-spacing: normal;
+            text-align: center;
+            color: #2eb0ec;
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+            span.dollar {
+                font-size: 20px;
+                vertical-align: super;
+            }
+            span.mo {
+                font-size: 20px;
+                vertical-align: sub;
+            }
+        }
+        &_text {
+            margin-top: 45px;
+            font-size: 14px;
+            font-weight: 500;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 2.29;
+            letter-spacing: normal;
+            text-align: center;
+            color: #7c7c7c;
+            span {
+                color: #bebebe;
+            }
+        }
+    }
+}

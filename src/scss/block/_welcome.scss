@@ -1,0 +1,126 @@
+.welcome {
+    padding: 100px 20px 190px 20px;
+    &_header {
+        font-size: 18px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.33;
+        letter-spacing: normal;
+        text-align: center;
+        color: #7c7c7c;
+    }
+    &_subheader {
+        margin-top: 20px;
+        font-size: 24px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: 2.4px;
+        text-align: center;
+        color: #494949;
+        text-transform: uppercase;
+    }
+    &_hr {
+        width: 30px;
+        height: 2px;
+        margin-top: 22px;
+        background-color: #2eb0ec;
+    }
+    &_services {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 85px;
+        &_web {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            img {
+                display: block;
+                text-align: center;
+            }
+            &_header {
+                margin-top: 45px;
+                font-size: 18px;
+                font-weight: bold;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: normal;
+                letter-spacing: normal;
+                text-align: center;
+                color: #494949;
+            }
+            &_subheader {
+                margin-top: 32px;
+                font-size: 14px;
+                font-weight: 500;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.86;
+                letter-spacing: normal;
+                text-align: center;
+                color: #7c7c7c;
+            }
+        }
+        &_photography {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            &_header {
+                margin-top: 57px;
+                font-size: 18px;
+                font-weight: bold;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: normal;
+                letter-spacing: normal;
+                text-align: center;
+                color: #494949;
+            }
+            &_subheader {
+                margin-top: 32px;
+                font-size: 14px;
+                font-weight: 500;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.86;
+                letter-spacing: normal;
+                text-align: center;
+                color: #7c7c7c;
+            }
+        }
+        &_vector {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            &_header {
+                margin-top: 42px;
+                font-size: 18px;
+                font-weight: bold;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: normal;
+                letter-spacing: normal;
+                text-align: center;
+                color: #494949;
+            }
+            &_subheader {
+                margin-top: 36px;
+                font-size: 14px;
+                font-weight: 500;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.86;
+                letter-spacing: normal;
+                text-align: center;
+                color: #7c7c7c;
+            }
+        }
+
+    }
+}

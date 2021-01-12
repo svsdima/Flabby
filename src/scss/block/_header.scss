@@ -1,0 +1,108 @@
+.up {
+    position: relative;
+    padding: 0 20px;
+    padding-top: 20px;
+    padding-bottom: 210px;
+    background: url('../img/bg/bg_1_1.jpg') center (center / cover) no-repeat;
+    .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+        &_logo {
+            justify-content: flex-start;
+        }
+        &_menu {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            text-transform: uppercase;
+            font-size: 17px;
+            font-weight: 600;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 3.53;
+            letter-spacing: normal;
+            text-align: right;
+            color: #ffffff;
+            list-style: none;
+            li {
+                margin-right: 60px;
+                &:hover {
+                    cursor: pointer;
+                    text-decoration: underline;
+                }
+            }
+        }
+        &_hr {
+            opacity: 0.6;
+            background-color: #ffffff;
+        }
+    }
+    &_head {
+        margin-top: 265px;
+        font-family: $second_font;
+        font-size: 40px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 0.7;
+        letter-spacing: normal;
+        text-align: left;
+        color: #fffefe;
+        text-transform: uppercase;
+    }
+    &_subhead {
+        margin-top: 44px;
+        font-size: 26px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.54;
+        letter-spacing: normal;
+        text-align: left;
+        color: #fefefe;
+    }
+    &_google {
+        width: 240px;
+        height: 80px;
+        margin-right: 30px;
+        &:hover {
+            text-decoration: none;
+            border-radius: 2px;
+            border-color: black;
+            opacity: 0.8;
+        }
+    }
+    &_btns {
+        display: flex;
+
+    }
+    .headphones {
+        position: absolute;
+        width: 374px;
+        height: 388px;
+        top: 0;
+        left: 0;
+    }
+    .pencil_1 {
+        position: absolute;
+        width: 82px;
+        height: 105px;
+        bottom: 5%;
+        left: 0;
+    }
+    .pencil_2 {
+        position: absolute;
+        width: 183px;
+        height: 219px;
+        bottom: 0;
+        left: 0;
+    }
+    .earphones {
+        position: absolute;
+        width: 141px;
+        height: 242px;
+        top: 50%;
+        right: 0;
+    }
+}
