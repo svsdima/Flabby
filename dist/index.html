@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flabby</title>
+    <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/font.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -178,6 +179,32 @@
                 <div class="customer_wrapper_subheader">Co Founder of Mew</div>
                 <div class="customer_wrapper_text">Great Team with great experience, i would reguler recommended to <br> all that you will get better support by working with this awesome <br> team and their expert members :)</div>
             </div>
+            <div class="customer_wrapper">
+                <div class="customer_wrapper_photo">
+                    <img src="icons/author.png" alt="author">
+                </div>
+                <div class="customer_wrapper_header">Jonson M.</div>
+                <div class="customer_wrapper_subheader"></div>
+                <div class="customer_wrapper_text">An excellent team, works quickly and efficiently.</div>
+            </div>
+            <div class="customer_wrapper">
+                <div class="customer_wrapper_photo">
+                    <img src="icons/author.png" alt="author">
+                </div>
+                <div class="customer_wrapper_header">Mency M.</div>
+                <div class="customer_wrapper_subheader"></div>
+                <div class="customer_wrapper_text">An excellent team, works quickly and efficiently.</div>
+            </div>
+            <div class="customer_slider">
+                <div class="customer_arrow_prev">
+                    <img class="customer_img_arrow_prev" src="icons/arrow_icon.png" alt="arrow_icon">
+                    <span>Previous</span>
+                </div>
+                <div class="customer_arrow_next">
+                    <span>Next</span>
+                    <img class="customer_img_arrow_next" src="icons/arrow_icon.png" alt="arrow_icon">
+                </div>
+            </div>
         </div>
     </section>
 
@@ -324,5 +351,32 @@
             <hr class="basement_hr">
         </div>
     </section>
+
+    <div class="modal_end" data-modal>
+        <div class="modal_dialog">
+            <div class="modal_content">
+                <button type="button" class="modal_end_close"><img src="icons/cross-sign.svg" alt="cross-sign"></button>
+                <div class="modal_form">
+<!--                     <form class="form" action="#" data-calc="end">
+                      <h2>Спасибо за обращение! <br>Оставьте свои данные</h2>
+                        <input class="form-control form_input" name="user_name" required type="text" placeholder="Введите ваше имя">
+                        <input class="form-control form_input" name="user_phone" required type="text" placeholder="Введите телефон">
+                        <button class="text-uppercase btn-block button" name="submit" type="submit">Оставить заявку</button>
+                        
+                    </form> -->
+                    <form class="subscribe_form" action="#" data-calc="end"> <!-- Делаем форму заявки -->
+                        <h2>Спасибо за обращение! <br>Оставьте свои данные</h2>
+                        <input name="name" required placeholder="Ваше имя" type="text"> <!-- Поле для ввода -->
+                        <input name="email" required placeholder="Ваш E-mail" type="email">
+        
+                        <button class="subscribe_btn modal_btn">subscribe</button>
+                        <p class="form_notice">Перезвоним в течение 10 минут</p>
+                    </form> 
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
 </body>
 </html>

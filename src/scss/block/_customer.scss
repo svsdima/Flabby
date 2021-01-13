@@ -80,4 +80,40 @@
             color: #7c7c7c;
         }
     }
+    &_slider {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        margin-top: 40px;
+    }
+    &_arrow {
+        font-size: 18px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.67;
+        letter-spacing: normal;
+        text-align: left;
+        color: #494949;
+        &_next {
+            cursor: pointer;
+            span {
+                margin-right: 15px;
+            }
+        }
+        &_prev {
+            cursor: pointer;
+            span {
+                margin-right: 30px;
+            }
+        }
+    }
+    &_img{
+        &_arrow {
+            &_prev{
+                transform: rotate(180deg);
+                margin-right: 15px;
+            }
+        }
+    }
 }

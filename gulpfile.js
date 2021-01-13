@@ -62,6 +62,8 @@ gulp.task("copy-assets", () => {
     //     .pipe(server.pipe());
     gulp.src("./src/icons/**/*.*")
         .pipe(gulp.dest(dist + "/icons"));
+    gulp.src("./src/server.php")
+        .pipe(gulp.dest(dist));
     gulp.src("./src/css/**/*.*")
         .pipe(gulp.dest(dist + "/css"));
     gulp.src("./src/fonts/**/*.*")
@@ -88,6 +90,7 @@ gulp.task("watch", () => {
     gulp.watch("./src/css/**/*.*", gulp.parallel("copy-assets"));
     gulp.watch("./src/img/**/*.*", gulp.parallel("copy-assets"));
     gulp.watch("./src/fonts/**/*.*", gulp.parallel("copy-assets"));
+    gulp.watch("./src/server.php", gulp.parallel("copy-assets"));
     gulp.watch("./src/scss/**/*.scss", gulp.parallel("build-sass"));
     gulp.watch("./src/js/**/*.js", gulp.parallel("build-js"));
     // gulp.watch("./db.json", gulp.parallel("copy-assets"));
@@ -106,6 +109,8 @@ gulp.task("prod", () => {
         .pipe(gulp.dest(dist + "/css"));
     gulp.src("./src/fonts/**/*.*")
         .pipe(gulp.dest(dist + "/fonts"));
+    gulp.src("./src/server.php")
+        .pipe(gulp.dest(dist));
         // gulp.src("./db.json")
         // .pipe(gulp.dest(dist));
 

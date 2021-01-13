@@ -65,6 +65,9 @@ button {
   text-align: center;
   color: #ffffff; }
 
+.modal_btn {
+  margin-bottom: 20px; }
+
 * {
   font-family: Raleway; }
 
@@ -472,6 +475,31 @@ button {
       letter-spacing: normal;
       text-align: center;
       color: #7c7c7c; }
+  .customer_slider {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 40px; }
+  .customer_arrow {
+    font-size: 18px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.67;
+    letter-spacing: normal;
+    text-align: left;
+    color: #494949; }
+    .customer_arrow_next {
+      cursor: pointer; }
+      .customer_arrow_next span {
+        margin-right: 15px; }
+    .customer_arrow_prev {
+      cursor: pointer; }
+      .customer_arrow_prev span {
+        margin-right: 30px; }
+  .customer_img_arrow_prev {
+    transform: rotate(180deg);
+    margin-right: 15px; }
 
 .resourse {
   padding: 180px 0 150px 0; }
@@ -691,3 +719,51 @@ button {
 
 .basement_hr {
   margin-top: 75px; }
+
+.modal {
+  position: relative; }
+  .modal_end {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+    background-color: rgba(0, 0, 0, 0.5); }
+    .modal_end_close {
+      position: absolute;
+      top: 0;
+      right: -15%;
+      color: #ffffff;
+      border: none;
+      background: transparent;
+      width: 45px;
+      height: 45px; }
+      .modal_end_close img {
+        width: 30px;
+        height: 30px; }
+  .modal_content {
+    /* display: none; */
+    position: fixed;
+    top: 10%;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    width: 500px;
+    background-color: #ffffff;
+    text-align: center; }
+  .modal_form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px; }
+    .modal_form input {
+      width: 370px;
+      height: 75px;
+      margin-bottom: 25px;
+      border-radius: 37.5px;
+      box-shadow: 0px 8px 16px 0 rgba(92, 149, 161, 0.07);
+      border: solid 1px rgba(0, 0, 0, 0.03);
+      background-color: #ffffff; }
